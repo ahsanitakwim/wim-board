@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WimDash</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1>WimBoard</h1>
+        <p class="byline">by Wim🚀</p>
+      </div>
+      <button id="toggle-dark" title="Ganti Tema 🌗">🌓</button>
+    </div>
+
+    <!-- To-Do Section -->
+    <section>
+      <h2>To-Do List</h2>
+      <form id="todo-form">
+        <input id="todo-input" type="text" placeholder="Tambah tugas..." required />
+        <button type="submit">Tambah</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </section>
+
+    <!-- Notes Section -->
+    <section>
+      <h2>Catatan</h2>
+      <textarea id="note-area" placeholder="Tulis catatanmu di sini..."></textarea>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
