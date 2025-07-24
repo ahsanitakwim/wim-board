@@ -20,14 +20,14 @@ function addTodo(text) {
   actions.className = "actions";
 
   const doneBtn = document.createElement("button");
-  doneBtn.textContent = "✔️";
+  doneBtn.innerHTML = "✔️";
   doneBtn.title = "Selesai";
   doneBtn.addEventListener("click", () => {
     li.classList.toggle("done");
   });
 
   const delBtn = document.createElement("button");
-  delBtn.textContent = "🗑️";
+  delBtn.innerHTML = "🗑️";
   delBtn.title = "Hapus";
   delBtn.addEventListener("click", () => {
     todoList.removeChild(li);
@@ -41,7 +41,6 @@ function addTodo(text) {
 
 // === Notes ===
 const notesArea = document.getElementById("note-area");
-
 notesArea.addEventListener("input", () => {
   localStorage.setItem("notes", notesArea.value);
 });
@@ -50,7 +49,7 @@ window.addEventListener("load", () => {
   const saved = localStorage.getItem("notes");
   if (saved) notesArea.value = saved;
 
-  // Dark mode setting on load
+  // Load dark mode preference
   if (localStorage.getItem("darkMode") === "enabled") {
     setDarkMode(true);
   }
