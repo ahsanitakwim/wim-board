@@ -1,15 +1,15 @@
-# WimBoard
+# wim-board
 
-WimBoard adalah aplikasi dashboard produktivitas pribadi yang elegan dan ringan. 
-Fitur utama:
+A simple and elegant personal dashboard app.
+
+📝 Features:
 - To-Do List
-- Catatan harian
-- Dark mode
-- Tampilan minimalis modern
+- Notes
+- Dark Mode
 
-Aplikasi ini dikembangkan sebagai bagian dari portofolio, dan dirancang untuk membantu pengguna tetap fokus dan produktif.
+Built for personal productivity and aesthetic simplicity.
 
 ---
 
-🚀 by WIM Corporation
+🚀 by WIM
 
